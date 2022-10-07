@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #abc;
+    padding: 50px;
+}
+
+h1{
+    margin: 50px 10px 50px 10px;
+    text-align: center;
+    border-bottom: 3px solid greenyellow;
+    
+}
+
+
+ul.navmenu, ul.sub1, ul.sub2{
+    
+    list-style: none;
+   font-size: 11px;
+}
+
+ul.navmenu li{
+
+width: 125px;
+text-align: center;
+position: relative;
+float: left;
+margin-right: 4px;
+}
+
+ul.navmenu a{
+    display: block;
+    text-decoration: none;
+    width: 125px;
+    height: 25px;
+     line-height: 25px;
+     background-color: #fff;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+}
+
+
+
+ul.navmenu .sub1 a{
+    margin-top: 5px;
+}
+
+ul.navmenu .sub2 a{
+    margin-left: 8px;
+}
+ul.navmenu li:hover > a{
+    background-color: #cfc;
+}
+
+ul.navmenu li:hover a:hover{
+    background-color: #ff0;
+}
+
+ul.navmenu ul.sub1{
+    display: none;
+    position: absolute;
+    top: 26px;
+    left: 0px;
+}
+ul.navmenu ul.sub2{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 121px;
+}
+ul.navmenu li:hover .sub1{
+    display: block;
+}
+ul.navmenu .sub1 li:hover .sub2{
+    display: block;
+}
+
+.darrow{
+    font-size: 10px;
+    position: absolute;
+    top: 7px;
+    right: 6px;
+}
+
+.rarrow{
+    font-size: 10px;
+    position: absolute;
+    top: 11px;
+    right: 8px;
+}
